@@ -1,0 +1,77 @@
+* {
+    text-align: center;
+}
+.main-icon {
+    width: 110px;
+    height: 110px;
+    margin: 30px;
+}
+.text-affichagee {
+    float: left;
+    font-size: 50px;
+    column-width: 110px;
+    line-height: 40px;
+}
+.humiditeImage, .ventImage, .leverImage, .coucherImage {
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+.temps-icon {
+    float: left;
+    margin: -30px;
+}
+.text-affichage {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 20px;
+    float: left;
+    margin: -10px;
+}
+.text-affichages {
+    text-align: right;
+    margin: 0;
+}
+.position {
+    margin: -30px;
+    font-size: 30px;
+    font-family: segoe Print;
+}
+#position {
+    width: 500px;
+    margin: 10px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+    text-align: left;
+    padding: 10px;
+    border-radius: 25px 25px;
+}
+.box-meteo {
+    background-color: white;
+    border:3px groove #333;
+    border-radius: 15px;
+    margin: 100px;
+    padding: 40px;
+}
+.line {
+    text-decoration: underline;
+}
+.heure {
+    float: right;
+}
+.humid, .vent, .leverDusoleil, .coucherDuSoleil{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: right;
+    list-style: none;
+}
+.humid1, .vent1, .leverDuSoleil1, .coucherDuSoleil1 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #777;
+    float: left;
+    list-style: none;
+}
